@@ -1,6 +1,9 @@
 body {
-    background-color: black;
     
+    background: url('./Component/Image/Logo.png') no-repeat center center/cover;
+      background-size: 60%;
+      
+      background-color: black;
   }
 
   p {
@@ -41,6 +44,16 @@ body {
       font-size: 128px;
     }
   }
+
+  .bottom-btn {
+    position: absolute;
+    display: flex;
+    margin: 4vh auto;
+    top: 60vh;
+    left: 18vw;
+    width: 60%;
+    height: 8vh;
+}
 
   .countdown {
     
