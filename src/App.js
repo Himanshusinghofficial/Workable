@@ -19,9 +19,9 @@ class App extends Component {
       </div>
       <div style={{textAlign:'center',marginTop:'70px'}}>
       <a><i className="fab fa-twitter fa-2x" ></i></a>
-      <a href="https://www.instagram.com/the_workable/?hl=en"><i className="fab fa-instagram fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
+      <a><i className="fab fa-instagram fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
       <a><i className='fab fa-facebook fa-2x' style={{ padding: '0 0 0 20px' }}></i></a>
-      <a href="https://www.linkedin.com/company/the-workable/"><i className="fab fa-linkedin fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
+      <a><i className="fab fa-linkedin fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
       </div>
       </div>
       
