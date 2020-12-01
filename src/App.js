@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import "./App.css";
 import "./App.module.css"
+import Image from './Component/Image/Logo.png'
 
 class App extends Component {
 
@@ -9,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-      <div id="countdown" style={{textAlign:'center'}}>
+      <div className="countdown" style={{textAlign:'center', backgroundImage:`url(${Image})`}}>
        {/* <h1 style={{fontSize:'50px'}}>THE WORKABLE</h1> */}
        <h2 style={{color:'white'}}>We'll be LIVE Soon!</h2>
        <p id="demo" style={{color:'white'}}></p>

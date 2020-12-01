@@ -42,7 +42,7 @@ body {
     }
   }
 
-  #countdown {
+  .countdown {
     
     @media screen and(480px) {
       height: 300px;
