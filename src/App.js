@@ -10,8 +10,8 @@ class App extends Component {
     return (
       <div className="container">
       <div className="countdown" style={{textAlign:'center'}}>
-       <h2 style={{color:'#448ada'}}>We'll be LIVE Soon!</h2>
-       <p id="demo" style={{color:'#448ada'}}></p>
+       <h2 style={{color:'white'}}>We'll be LIVE Soon!</h2>
+       <p id="demo" style={{color:'white'}}></p>
      </div>
       <div style={{textAlign:'center' ,marginTop:'70px'}}>
       <button type="button" class="btn btn-danger" >Join Community</button>
