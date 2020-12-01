@@ -10,8 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-      <div className="countdown" style={{textAlign:'center', backgroundImage:`url(${Image})`}}>
-       {/* <h1 style={{fontSize:'50px'}}>THE WORKABLE</h1> */}
+      <div className="countdown" style={{textAlign:'center'}}>
        <h2 style={{color:'white'}}>We'll be LIVE Soon!</h2>
        <p id="demo" style={{color:'white'}}></p>
      </div>
