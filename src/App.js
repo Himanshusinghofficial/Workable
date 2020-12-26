@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import "./App.css";
 import "./App.module.css"
 
 class App extends Component {
@@ -18,10 +17,10 @@ class App extends Component {
       <button type="button" class="btn btn-danger" style={{paddingLeft:'20px',paddingRight:'20px',marginLeft:'40px'}}>Subscribe</button>
       </div>
       <div style={{textAlign:'center',marginTop:'70px'}}>
-      <a><i href="https://www.twitter.com/" className="fab fa-twitter fa-2x" ></i></a>
-      <a><i href="https://www.instagram.com/" className="fab fa-instagram fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
-      <a><i href="https://www.facebook.com/" className='fab fa-facebook fa-2x' style={{ padding: '0 0 0 20px' }}></i></a>
-      <a><i href="https://www.linkedin.com/" className="fab fa-linkedin fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
+      <a href="https://www.twitter.com/" target="_blank"><i className="fab fa-twitter fa-2x" ></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
+      <a href="https://www.facebook.com/" target="_blank"><i className='fab fa-facebook fa-2x' style={{ padding: '0 0 0 20px' }}></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin fa-2x" style={{ padding: '0 0 0 20px' }}></i></a>
       </div>
       </div>
       
